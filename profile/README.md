@@ -24,7 +24,7 @@ are designed to integrate seamlessly into your workflow.
 ## Projects
 
 ### [ElysiumDB](https://github.com/ModuDevCore/ElysiumDB-Unity)
-<a href="https://github.com/ModuDevCore/ElysiumDB-Unity"><img src="https://github.com/ModuDevCore/ElysiumDB-Unity/raw/main/Docs/Images/ElysiumDBv120.png" alt="ElysiumDB-Unity Banner" width="50%"></a>
+<a href="https://github.com/ModuDevCore/ElysiumDB-Unity"><img src="https://github.com/ModuDevCore/ElysiumDB-Unity/raw/main/Docs/Images/Baner/ElysiumDBv120.png" alt="ElysiumDB-Unity Banner" width="50%"></a>
 <p>
   <a href="https://github.com/ModuDevCore/ElysiumDB-Unity/blob/main/Docs/TUTORIAL.md"><img src="../Images/Tutorial.png" alt="Tutorial.md" hspace="10" width="23%"></a>
 </p>
