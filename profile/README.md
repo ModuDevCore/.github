@@ -21,7 +21,7 @@ Whether you’re creating small games or large‑scale services, our projects ar
 ## Projects
 
 ### [CatPackage](https://github.com/ModuDevCore/CatPackage)
-<a href="https://github.com/ModuDevCore/CatPackage"><img src="https://raw.githubusercontent.com/ModuDevCore/CatPackage/main/DOCS/Images/Baner.png?token=GHSAT0AAAAAAD34PMCLDQYMEZGLTVD242XC2U5MGYA" alt="CatPackage Banner" width="50%"></a>
+<a href="https://github.com/ModuDevCore/CatPackage"><img src="[https://raw.githubusercontent.com/ModuDevCore/CatPackage/main/DOCS/Images/Baner.png" alt="CatPackage Banner" width="50%"></a>
 
 ---
 
