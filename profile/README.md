@@ -12,19 +12,38 @@ Building modern, modular, and open-source tools for Unity developers.
 
 ## About
 
-ModuDevCore is an open-source organization focused on creating reusable and
-high-performance libraries for Unity. Our goal is to simplify development by
-providing modular, extensible, and well-documented solutions.
-
-Whether you're building small games or large-scale applications, our libraries
-are designed to integrate seamlessly into your workflow.
+ModuDevCore is an open‑source organization specializing in creating open‑source utilities,
+providing modular and versatile solutions for addressing challenges in the IT field.
+Whether you’re creating small games or large‑scale services, our projects are designed to integrate easily into your workflow.
 
 ---
 
 ## Projects
 
+### [CatPackage](https://github.com/ModuDevCore/CatPackage)
+<a href="https://github.com/ModuDevCore/CatPackage"><img src="https://raw.githubusercontent.com/ModuDevCore/CatPackage/main/DOCS/Images/Baner.png?token=GHSAT0AAAAAAD34PMCLDQYMEZGLTVD242XC2U5MGYA" alt="CatPackage Banner" width="50%"></a>
+
+---
+
+CatPackage is a native, minimalist package manager for building a minimal OS. It is independent of the distribution and provides its own package format and bootstrap installer.
+
+---
+
+| About                                                                      | Briefly                                                    |
+| -------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **[catpkg-make](https://github.com/ModuDevCore/CatPackage/blob/main/DOCS/catpkg-make)**                                             | Builds catpkg packages for x86_64 and aarch64.             |
+| **[catpkg-installer](https://github.com/ModuDevCore/CatPackage/blob/main/DOCS/catpkg-installer)**                                   | Bootstrap installer for catpkg with built-in dependencies. |
+| **[catpkg](https://github.com/ModuDevCore/CatPackage/blob/main/DOCS/catpkg)**                                                       | Standard package manager and its commands.                 |
+| **[catpackages-aarch64](#)**                                                  | aarch64 package repository.                                |
+| **[catpackages-x86_64](#)**                                                   | x86_64 package repository.                                 |
+| **[CATPKG Package Metadata Specification](https://github.com/ModuDevCore/CatPackage/blob/main/DOCS/CATPKG_METADATA_SPECIFICATION)** | Package metadata format, CATPKG 1.X and CATPKG 2.          |
+
 ### [ElysiumDB](https://github.com/ModuDevCore/ElysiumDB-Unity)
+<<<<<<< Updated upstream
 <a href="https://github.com/ModuDevCore/ElysiumDB-Unity"><img src="https://github.com/ModuDevCore/ElysiumDB-Unity/raw/main/Docs/Images/Baner/ElysiumDBv120.png" alt="ElysiumDB-Unity Banner" width="50%"></a>
+=======
+<a href="https://github.com/ModuDevCore/ElysiumDB-Unity"><img src="https://github.com/ModuDevCore/ElysiumDB-Unity/blob/main/Docs/Images/Baner/ElysiumDBv120.png?raw=true" alt="ElysiumDB-Unity Banner" width="50%"></a>
+>>>>>>> Stashed changes
 <p>
   <a href="https://github.com/ModuDevCore/ElysiumDB-Unity/blob/main/Docs/TUTORIAL.md"><img src="../Images/Tutorial.png" alt="Tutorial.md" hspace="10" width="23%"></a>
 </p>
