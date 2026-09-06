@@ -39,11 +39,7 @@ CatPackage is a native, minimalist package manager for building a minimal OS. It
 | **[CATPKG Package Metadata Specification](https://github.com/ModuDevCore/CatPackage/blob/main/DOCS/CATPKG_METADATA_SPECIFICATION)** | Package metadata format, CATPKG 1.X and CATPKG 2.          |
 
 ### [ElysiumDB](https://github.com/ModuDevCore/ElysiumDB-Unity)
-<<<<<<< Updated upstream
-<a href="https://github.com/ModuDevCore/ElysiumDB-Unity"><img src="https://github.com/ModuDevCore/ElysiumDB-Unity/raw/main/Docs/Images/Baner/ElysiumDBv120.png" alt="ElysiumDB-Unity Banner" width="50%"></a>
-=======
 <a href="https://github.com/ModuDevCore/ElysiumDB-Unity"><img src="https://github.com/ModuDevCore/ElysiumDB-Unity/blob/main/Docs/Images/Baner/ElysiumDBv120.png?raw=true" alt="ElysiumDB-Unity Banner" width="50%"></a>
->>>>>>> Stashed changes
 <p>
   <a href="https://github.com/ModuDevCore/ElysiumDB-Unity/blob/main/Docs/TUTORIAL.md"><img src="../Images/Tutorial.png" alt="Tutorial.md" hspace="10" width="23%"></a>
 </p>
