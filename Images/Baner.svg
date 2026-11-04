@@ -1,0 +1,179 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		#background {
+			fill: black;
+		    animation: switch-fill-black-to-white 1s ease 0.5s forwards;
+		}
+
+		.icon.show {
+		    animation:
+		        move-left 1s ease 1.5s both,
+		        show-icon 1s ease 0.5s both;
+		}
+
+		.icon.hide {
+		    animation:
+		        move-left 1s ease 1.5s both,
+		        hide-icon 1s ease 0.5s both;
+		}
+
+		#baner-first-text {
+		    animation: show-text 1s ease 2.5s both;
+		}
+
+		#typing-reveal {
+		    animation: typing 1s steps(1, end) 3.5s both;
+		}
+
+
+		@keyframes typing {
+		    0%   { width: 0px; }
+		    5%   { width: 25px; }
+		    8%   { width: 50px; }
+		    12%  { width: 75px; }
+		    20%  { width: 100px; }
+		    21%  { width: 125px; }
+		    25%  { width: 150px; }
+		    35%  { width: 190px; }
+		    37%  { width: 220px; }
+		    42%  { width: 250px; }
+		    55%  { width: 300px; }
+		    58%  { width: 330px; }
+		    70%  { width: 370px; }
+		    72%  { width: 400px; }
+		    85%  { width: 440px; }
+		    100% { width: 478.68px; }
+		}
+
+		#background {
+		    animation: switch-fill-black-to-white 1s ease forwards;
+		    animation-delay: 0.5s;
+
+		    border-radius: 25px;
+		}
+
+		@keyframes switch-fill-black-to-white {
+			from {
+				fill: black;
+			}
+			to {
+				fill: white;
+			}
+		}
+
+		@keyframes show-text {
+		    from {
+		        opacity: 0;
+		    }
+		    to {
+		        opacity: 1;
+		    }
+		}
+
+		@keyframes show-icon {
+		    from {
+		        opacity: 0;
+		    }
+		    to {
+		        opacity: 1;
+		    }
+		}
+
+		@keyframes hide-icon {
+		    from {
+		        opacity: 1;
+		    }
+		    to {
+		        opacity: 0;
+		    }
+		}
+
+		@keyframes move-left {
+		    from {
+		        transform: translate(450px, 50px);
+		    }
+		    to {
+		        transform: translate(50px, 50px);
+		    }
+		}
+	</style>
+	<defs>
+	    <mask id="typing-mask"
+	          maskUnits="userSpaceOnUse"
+	          maskContentUnits="userSpaceOnUse"
+	          x="377" y="240"
+	          width="750" height="70">
+
+	        <rect
+	            id="typing-reveal"
+	            x="377" y="240"
+	            width="0" height="70"
+	            fill="white"
+	        />
+	    </mask>
+	</defs>
+	<rect id="background" width="1200" height="400" rx="50" fill="white" />
+	<g class="icon dark-theme show" transform="translate(50px, 50px)" opacity="1" >
+		<g>
+			<mask id="mask0_24_192" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="300" height="300">
+				<rect width="300" height="300" rx="50" fill="white" />
+			</mask>
+			<g mask="url(#mask0_24_192)">
+				<rect width="300" height="300" rx="50" fill="black" />
+				<path d="M31.8936 211.028 17.6035 225.271C17.133 225.74 16.8682 226.377 16.8682 227.041 16.8683 227.705 17.1329 228.343 17.6035 228.812L43.2363 254.355C44.2119 255.327 45.7901 255.328 46.7656 254.355L48.8018 252.325 58.1709 275.21H62.4316L87.6504 213.611 150.207 151.271C150.678 150.803 150.942 150.165 150.942 149.501 150.942 148.837 150.678 148.199 150.207 147.729L124.935 122.544 186.012-26.6367H238.568V237.5H197.375V60.7217H193.824L80.1875 337H40.415L-73.2217 60.7217H-76.7725V337H-117.966V-26.6367H-65.4092L31.8936 211.028ZM238.568 337H197.375V277.5H238.568V337Z" fill="white" />
+				<path d="M19.3682 227.041 97.1769 149.5 19.3682 71.9599 45.0008 46.4157 148.442 149.5 45.0008 252.585 19.3682 227.041Z" fill="white" />
+				<path d="M131.876 275.938H276.877V239.812H131.876V275.938Z" fill="white" />
+			</g>
+		</g>
+	</g>
+	<g class="icon light-theme hide" transform="translate(450 50)" opacity="0">
+		<g transform="translate(-4 0)">
+			<defs>
+				<filter id="filter0_d_24_178" x="0" y="0" width="308" height="308" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+					<feOffset dy="4" />
+					<feGaussianBlur stdDeviation="2" />
+					<feComposite in2="hardAlpha" operator="out" />
+					<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_178" />
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_178" result="shape" />
+				</filter>
+				<filter id="filter1_d_24_178" x="-113.966" y="-38.4367" width="438.643" height="395.237" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix" />
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+					<feOffset dx="28" dy="4" />
+					<feGaussianBlur stdDeviation="7.9" />
+					<feComposite in2="hardAlpha" operator="out" />
+					<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_24_178" />
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_24_178" result="shape" />
+				</filter>
+			</defs>
+			<mask id="mask0_24_178" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="0" width="300" height="300">
+				<rect x="4" width="300" height="300" rx="50" fill="white" />
+			</mask>
+			<g mask="url(#mask0_24_178)">
+				<g filter="url(#filter0_d_24_178)">
+					<rect x="4" width="300" height="300" rx="50" fill="white" />
+				</g>
+				<g filter="url(#filter1_d_24_178)">
+					<path d="M35.8936 211.028 21.6035 225.271C21.133 225.74 20.8682 226.377 20.8682 227.041 20.8683 227.705 21.1329 228.343 21.6035 228.812L47.2363 254.355C48.2119 255.327 49.7901 255.328 50.7656 254.355L52.8018 252.325 62.1709 275.21H66.4316L91.6504 213.611 154.207 151.271C154.678 150.803 154.942 150.165 154.942 149.501 154.942 148.837 154.678 148.199 154.207 147.729L128.935 122.544 190.012-26.6367H242.568V237.5H201.375V60.7217H197.824L84.1875 337H44.415L-69.2217 60.7217H-72.7725V337H-113.966V-26.6367H-61.4092L35.8936 211.028ZM242.568 337H201.375V277.5H242.568V337Z" fill="black" />
+					<path d="M23.3682 227.041 101.177 149.5 23.3682 71.9599 49.0008 46.4157 152.442 149.5 49.0008 252.585 23.3682 227.041Z" fill="black" />
+					<path d="M135.876 275.938H280.877V239.812H135.876V275.938Z" fill="black" />
+				</g>
+			</g>
+		</g>
+	</g>
+	<g id="baner-first-text" opacity="1">
+		<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Kantumruy" font-size="100" letter-spacing="0em">
+			<tspan x="377" y="212.238">ModuDevCore</tspan>
+		</text>
+		<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Kantumruy" font-size="25" letter-spacing="0em" mask="url(#typing-mask)">
+			<tspan x="377" y="288">&#xab;Modularity without compromise on the core&#xbb;</tspan>
+		</text>
+		<text fill="black" style="white-space: pre" xml:space="preserve" font-family="Kantumruy" font-size="25" letter-spacing="0em">
+			<tspan x="882.408" y="334.435">Github Organization</tspan>
+		</text>
+	</g>
+</svg>
