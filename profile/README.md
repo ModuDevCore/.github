@@ -5,7 +5,7 @@ Building modern, modular, and open-source tools for Unity developers.
 </p>
 
 <p align="center">
-  <img src="/home/nikita/test-animation.svg" alt="ModuDevCore Banner" width="100%">
+  <img src="../Images/Baner.svg" alt="ModuDevCore Banner" width="100%">
 </p>
 
 
@@ -22,7 +22,7 @@ Whether you’re creating small games or large‑scale services, our projects ar
 ## Projects
 
 ### CatPackage ❯ BETA
-<a href="https://github.com/ModuDevCore/CatPackage"><img src="/home/nikita/Документы/GitHub/ModuDevCore/CatPackage/DOCS/Images/CatPackageBanerLite.svg" alt="CatPackage Banner" width="50%"></a>
+<a href="https://github.com/ModuDevCore/CatPackage"><img src="https://raw.githubusercontent.com/ModuDevCore/CatPackage/refs/heads/main/DOCS/Images/CatPackageBanerLite.svg" alt="CatPackage Banner" width="50%"></a>
 
 ---
 
